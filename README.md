@@ -25,7 +25,7 @@ Run a windows command or program a la Run program as an administrator
   One way around this is to embed the necessary privileges in the Windows .exe or .dll file via the
   [Application Manifests](http://msdn.microsoft.com/en-us/library/aa374191(v=vs.85\).aspx), for example
 
-+--
+```xml
   <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
   <assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
     <trustInfo xmlns="urn:schemas-microsoft-com:asm.v2">
@@ -47,11 +47,11 @@ Run a windows command or program a la Run program as an administrator
       </security>
     </trustInfo>
   </assembly>
-+--
+```
   For example, the program elevate.exe has this manifest bundled into it, so it will always behave as if a use
   manually enabled the program properties “Always Run as an Administrator.”
 
-*Use Case: Automated Unit Tests
+* Use Case: Automated Unit Tests
   
   Often automated tests use test fixtures to setup the environment for the
   [Unit Under Test](http://en.wikipedia.org/wiki/Device_under_test).
