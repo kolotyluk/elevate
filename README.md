@@ -1,16 +1,14 @@
-Elevate
-=======
+# Elevate
 
 Run a windows command or program a la Run program as an administrator
 
-# Example
+## Example
 
- elevate.exe cmd /c mklink /D up ..
+    elevate.exe cmd /c mklink /D up ..
  
- Will run “cmd /c mklink /D up .." with elevated privileges in order to create a symbolic link.
+ Will run “cmd /c mklink /D up ..” with elevated privileges in order to create a symbolic link.
 
-Need for Elevate
-================
+# Need for Elevate
 
   Windows UAC
   [User Account Control](http://windows.microsoft.com/en-CA/windows7/products/features/user-account-control)
