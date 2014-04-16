@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder" version="2014.2.15.0 Beta" projectFile="D:\Users\Eric\Software\Project\Repositories\csharp-windows-elevate\elevate\elevate.shfbproj" started="4/16/2014 9:30:08 AM">
+<shfbBuild product="Sandcastle Help File Builder" version="2014.2.15.0 Beta" projectFile="D:\Users\Eric\Software\Project\Repositories\csharp-windows-elevate\elevate\elevate.shfbproj" started="4/16/2014 9:35:54 AM">
 <buildStep step="Initializing">
 Finding tools...
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
